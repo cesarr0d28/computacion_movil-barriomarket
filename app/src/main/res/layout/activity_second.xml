@@ -5,6 +5,69 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#163554"
     tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="275dp"
+        android:src="@drawable/imagen_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="212dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="328dp"
+        android:gravity="center"
+        android:text="Inventario"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="212dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="160dp"
+        android:gravity="center"
+        android:text="Facturación"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="212dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="244dp"
+        android:gravity="center"
+        android:text="Clientes"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="212dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="Salir"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

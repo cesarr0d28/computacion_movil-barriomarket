@@ -13,10 +13,18 @@
         android:theme="@style/Theme.Barriomarket"
         tools:targetApi="31">
         <activity
-            android:name=".SecondActivity"
+            android:name=".Facturacion"
+            android:exported="false"
+            android:theme="@style/Theme.Barriomarket" />
+        <activity
+            android:name=".Clientes"
+            android:exported="false"
+            android:theme="@style/Theme.Barriomarket" />
+        <activity
+            android:name=".Inventario"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".SecondActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

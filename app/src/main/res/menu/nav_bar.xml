@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:gravity="center"/>
+    <item android:title="Clientes"
+        android:id="@+id/clientes"
+        android:gravity="center"/>
+    <item android:title="Facturacion"
+        android:id="@+id/facruracion"
+        android:gravity="center"/>
+</menu>

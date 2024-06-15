@@ -19,7 +19,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/btn_ingresar"
+        android:id="@+id/btn_inventario"
         android:layout_width="212dp"
         android:layout_height="71dp"
         android:layout_marginBottom="328dp"
@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_ingresar"
+        android:id="@+id/btn_facturacion"
         android:layout_width="212dp"
         android:layout_height="71dp"
         android:layout_marginBottom="160dp"
@@ -45,7 +45,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_ingresar"
+        android:id="@+id/btn_clientes"
         android:layout_width="212dp"
         android:layout_height="68dp"
         android:layout_marginBottom="244dp"
@@ -58,7 +58,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_ingresar"
+        android:id="@+id/btn_salir"
         android:layout_width="212dp"
         android:layout_height="63dp"
         android:layout_marginBottom="80dp"

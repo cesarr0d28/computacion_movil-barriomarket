@@ -1,6 +1,8 @@
 package com.cguevararo1.barriomarket
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,29 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_second)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val btnInventario = findViewById<Button>(R.id.btn_inventario)
+        btnInventario.setOnClickListener {
+            val intent = Intent(this, Inventario::class.java)
+            startActivity(intent)
+        }
+
+        val btnClientes = findViewById<Button>(R.id.btn_clientes)
+        btnClientes.setOnClickListener {
+            val intent = Intent(this, Clientes::class.java)
+            startActivity(intent)
+        }
+
+        val btnFacturacion = findViewById<Button>(R.id.btn_facturacion)
+        btnFacturacion.setOnClickListener {
+            val intent = Intent(this, Facturacion::class.java)
+            startActivity(intent)
+        }
+
+        val btnSalir = findViewById<Button>(R.id.btn_salir)
+        btnSalir.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }
